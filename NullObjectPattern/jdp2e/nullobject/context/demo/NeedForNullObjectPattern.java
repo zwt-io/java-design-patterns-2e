@@ -1,7 +1,5 @@
 package jdp2e.nullobject.context.demo;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 interface Vehicle
@@ -87,7 +85,7 @@ public class NeedForNullObjectPattern {
 			vehicle.travel(); 
 			//}
 			System.out.println("Total number of objects created in the system is : "+ totalObjects);
-			//scanner.close();		
+			scanner.close();		
 
 		}
 

@@ -1,7 +1,6 @@
 package jdp2e.proxy.modified.demo;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 //Abstract class Subject

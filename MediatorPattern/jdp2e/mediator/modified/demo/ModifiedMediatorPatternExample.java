@@ -65,7 +65,7 @@ abstract class Employee
 {
 	private Mediator mediator;
 	protected String name;
-	private boolean authorizedUser;
+//	private boolean authorizedUser;
 	public String getName() {
 		return name;
 	}
@@ -78,7 +78,7 @@ abstract class Employee
 	{
 		this.mediator = mediator;
 		this.name=name;
-		this.authorizedUser=authorizedUser;
+//		this.authorizedUser=authorizedUser;
 		if(authorizedUser)
 		{
 			mediator.register(this);

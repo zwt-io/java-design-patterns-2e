@@ -69,16 +69,16 @@ class ModifiedFactoryMethodPatternExample {
 	public static void main(String[] args) {
 		System.out.println("***Modified Factory Pattern Demo***\n");
 		// Creating a Tiger Factory 
-		AnimalFactory tigerFactory =new TigerFactory();
+//		AnimalFactory tigerFactory =new TigerFactory();
 		// Creating a tiger using the Factory Method
-		Animal aTiger = tigerFactory.makeAnimal();
+//		Animal aTiger = tigerFactory.makeAnimal();
 		//aTiger.speak();
 		//aTiger.preferredAction();
 
 		// Creating a DogFactory
-		AnimalFactory dogFactory = new DogFactory();
+//		AnimalFactory dogFactory = new DogFactory();
 		// Creating a dog using the Factory Method 
-		Animal aDog = dogFactory.makeAnimal();
+//		Animal aDog = dogFactory.makeAnimal();
 		//aDog.speak();
 		//aDog.preferredAction();
 	}
